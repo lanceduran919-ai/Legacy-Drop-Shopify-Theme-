@@ -1,48 +1,107 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */{
+{
   "sections": {
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
-        "text_YLPk4p": {
+        "text_eyebrow": {
           "type": "text",
-          "name": "t:names.heading",
+          "name": "Eyebrow",
           "settings": {
-            "text": "<p>Browse our latest products</p>",
+            "text": "<p>San Antonio · Est. 2026</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h2",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "0.75rem",
+            "line_height": "normal",
+            "letter_spacing": "wider",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "#888888",
+            "background": true,
+            "background_color": "#0a0a0a",
+            "corner_radius": 4,
+            "padding-block-start": 8,
+            "padding-block-end": 8,
+            "padding-inline-start": 16,
+            "padding-inline-end": 16
+          },
+          "blocks": {}
+        },
+        "text_YLPk4p": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<p>Wear the city.<br>Rep the legacy.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-heading--family)",
+            "font_size": "3rem",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "#ffffff",
+            "background": true,
+            "background_color": "#0a0a0a",
+            "corner_radius": 4,
+            "padding-block-start": 12,
+            "padding-block-end": 12,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {}
+        },
+        "text_subheading": {
+          "type": "text",
+          "name": "Subheading",
+          "settings": {
+            "text": "<p>Premium fan merch for real Spurs faithful.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "color": "#aaaaaa",
+            "background": true,
+            "background_color": "#0a0a0a",
+            "corner_radius": 4,
+            "padding-block-start": 8,
+            "padding-block-end": 8,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
           },
           "blocks": {}
         },
-        "button_H9gpTf": {
+        "button_shop": {
           "type": "button",
-          "name": "t:names.button",
+          "name": "Primary CTA",
           "settings": {
-            "label": "Shop all",
+            "label": "Shop now",
             "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button-primary",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
+        "button_new": {
+          "type": "button",
+          "name": "Secondary CTA",
+          "settings": {
+            "label": "New arrivals",
+            "link": "shopify://collections/new-arrivals",
             "open_in_new_tab": false,
             "style_class": "button-secondary",
             "width": "fit-content",
@@ -54,10 +113,13 @@
         }
       },
       "block_order": [
+        "text_eyebrow",
         "text_YLPk4p",
-        "button_H9gpTf"
+        "text_subheading",
+        "button_shop",
+        "button_new"
       ],
-      "name": "t:names.hero",
+      "name": "Hero",
       "settings": {
         "media_type_1": "image",
         "media_type_2": "image",
@@ -68,24 +130,24 @@
         "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
+        "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-end",
         "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "flex-end",
-        "gap": 24,
-        "section_width": "page-width",
-        "section_height": "medium",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-6",
-        "toggle_overlay": true,
-        "overlay_color": "#12121266",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 70,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": false,
+        "overlay_color": "#0a0a0a",
         "overlay_style": "solid",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
-        "reflection_opacity": 75,
+        "reflection_opacity": 0,
         "padding-block-start": 100,
-        "padding-block-end": 72
+        "padding-block-end": 80
       }
     },
     "product_list_fa6P9H": {
@@ -93,7 +155,7 @@
       "blocks": {
         "static-header": {
           "type": "_product-list-content",
-          "name": "t:names.header",
+          "name": "Header",
           "static": true,
           "settings": {
             "content_direction": "row",
@@ -127,20 +189,20 @@
           "blocks": {
             "product_list_text_YFtzcL": {
               "type": "_product-list-text",
-              "name": "t:names.collection_title",
+              "name": "Section Title",
               "settings": {
-                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "text": "<h3>New drops</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
+                "type_preset": "h3",
+                "font": "var(--font-heading--family)",
                 "font_size": "",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
                 "wrap": "pretty",
-                "color": "var(--color-foreground)",
+                "color": "var(--color-foreground-heading)",
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
@@ -153,9 +215,9 @@
             },
             "product_list_button_MWeP9V": {
               "type": "_product-list-button",
-              "name": "t:names.product_list_button",
+              "name": "View All Link",
               "settings": {
-                "label": "View all",
+                "label": "View all →",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
@@ -173,10 +235,10 @@
         },
         "static-product-card": {
           "type": "_product-card",
-          "name": "t:names.product_card",
+          "name": "Product Card",
           "static": true,
           "settings": {
-            "product_card_gap": 4,
+            "product_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
@@ -191,13 +253,13 @@
           "blocks": {
             "product_card_gallery_677WP3": {
               "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
+              "name": "Product Image",
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 4,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -207,14 +269,14 @@
             },
             "product_title_YXxMTj": {
               "type": "product-title",
-              "name": "t:names.product_title",
+              "name": "Product Title",
               "settings": {
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
-                "font_size": "1rem",
+                "font_size": "0.875rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -223,8 +285,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 0,
+                "padding-block-start": 8,
+                "padding-block-end": 2,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -232,7 +294,7 @@
             },
             "price_JQzVV4": {
               "type": "price",
-              "name": "t:names.product_price",
+              "name": "Price",
               "settings": {
                 "show_sale_price_first": true,
                 "show_installments": false,
@@ -241,12 +303,12 @@
                 "width": "100%",
                 "alignment": "left",
                 "font": "var(--font-body--family)",
-                "font_size": "1rem",
+                "font_size": "0.9375rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
                 "color": "var(--color-foreground)",
-                "padding-block-start": 0,
+                "padding-block-start": 2,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -261,30 +323,94 @@
           ]
         }
       },
-      "name": "Featured collection",
+      "name": "New Drops",
       "settings": {
-        "collection": "all",
+        "collection": "new-arrivals",
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "max_products": 8,
+        "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
-        "columns_gap": 8,
-        "rows_gap": 24,
+        "columns_gap": 12,
+        "rows_gap": 20,
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
-        "gap": 28,
+        "gap": 20,
         "color_scheme": "scheme-1",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "tiktok_strip": {
+      "type": "marquee",
+      "blocks": {
+        "tiktok_item_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Follow us on TikTok @legacydrops</p>",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h6)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "tiktok_item_2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New drops every week</p>",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h6)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "tiktok_item_3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>San Antonio proud · Fan merch built different</p>",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h6)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "tiktok_item_1",
+        "tiktok_item_2",
+        "tiktok_item_3"
+      ],
+      "name": "TikTok Strip",
+      "settings": {
+        "movement_direction": "reverse",
+        "color_scheme": "scheme-5",
+        "padding-block-start": 16,
+        "padding-block-end": 16,
+        "gap_between_elements": 48
       }
     }
   },
   "order": [
     "hero_jVaWmY",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "tiktok_strip"
   ]
 }
